@@ -1,21 +1,18 @@
 # Smart Multimodal Mobility - Vehicle Routing Problem Optimization
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## 📋 Project Overview
+## Project Overview
 
 This project addresses the **Vehicle Routing Problem (VRP)** as part of ADEME's (French Environment and Energy Management Agency) call for innovative mobility solutions. The goal is to optimize delivery routes to reduce energy consumption and greenhouse gas emissions while managing logistical constraints in urban and suburban environments.
 
 The project focuses on calculating optimal delivery routes on road networks, connecting multiple delivery points and returning to the starting depot while minimizing total travel time and considering real-world constraints.
 
-## 🎯 Objectives
+## Objectives
 
 - **Primary Goal**: Develop a Python-based solver capable of handling large-scale instances (1,000+ cities)
 - **Environmental Impact**: Reduce CO₂ emissions through optimized routing
 - **Real-world Application**: Support various logistics operations (mail distribution, product delivery, waste collection)
 
-## 🚀 Features
+## Features
 
 ### Basic Version
 - Route optimization for delivery networks
@@ -33,7 +30,7 @@ Choose from the following constraints to make the model more realistic:
 | **Dynamic Traffic** | Constant travel time | Variable distance matrix per time slot |
 | **Pickup Points** | Single depot | Multi-depot + object-specific constraints |
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Language**: Python 3.8+
 - **Key Libraries**:
@@ -42,7 +39,7 @@ Choose from the following constraints to make the model more realistic:
   - `matplotlib` - Visualization
   - `pandas` - Data analysis
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -57,7 +54,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Basic Example
 
@@ -87,7 +84,7 @@ python experiments.py --instances A-n32-k5 X-n101-k25 M-n200-k17 --runs 20
 python analysis.py --output results/
 ```
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 | Instance | Optimum Cost | Our Cost | Gap (%) | Time (s) |
 |----------|--------------|----------|---------|----------|
@@ -96,7 +93,7 @@ python analysis.py --output results/
 
 **Target**: Average Gap < 7% on instances with < 200 customers
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart-mobility-vrp/
@@ -121,7 +118,7 @@ smart-mobility-vrp/
 └── README.md
 ```
 
-## 🧪 Methodology
+## Methodology
 
 ### 1. Formal Modeling
 - Mathematical formulation of the VRP
@@ -140,7 +137,7 @@ Choose one metaheuristic:
 - Statistical analysis (20 runs per instance)
 - Comparison with CVRPLIB benchmarks
 
-## 📈 Results & Analysis
+## Results & Analysis
 
 The experimental study includes:
 - **Convergence analysis**: Solution quality over iterations
@@ -148,31 +145,30 @@ The experimental study includes:
 - **Statistical validation**: Boxplots showing solution distribution
 - **Gap analysis**: Comparison with optimal/best-known solutions
 
-## 🌍 Environmental Impact
+## Environmental Impact
 
 This project contributes to:
 - **Reduction of CO₂ emissions** through optimized routing
 - **Fuel consumption optimization** via shorter travel distances
 - **Traffic congestion reduction** through better route planning
 
-## 👥 Contributors
+## Contributors
 
 This project was developed by the CesiCDP team in response to ADEME's call for innovative mobility solutions.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 References
+## References
 
 - [CVRPLIB - VRP Benchmark Library](http://vrp.atd-lab.inf.puc-rio.br/index.php/en/)
 - [vrplib Python Package](https://pypi.org/project/vrplib/)
 - [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
-## 📞 Contact
+## Contact
 
 For questions or collaboration opportunities, please open an issue or contact the team.
 
 ---
 
-**Note**: This project is part of an academic research initiative focused on sustainable transportation and logistics optimization.
