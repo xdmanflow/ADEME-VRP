@@ -211,5 +211,3 @@ This project is licensed under the [MIT License](LICENSE).
 - [PEP 8 Style Guide](https://peps.python.org/pep-0008/)
 
 ---
-
-*For questions or collaboration opportunities, please open an issue or contact the team.*
