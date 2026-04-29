@@ -201,12 +201,8 @@ This project contributes to:
 
 ## License
 
-This project is licensed under the MIT License.
+Copyright © 2025 ADEME. All rights reserved.
+
+This software is proprietary and confidential. Unauthorized copying, distribution, modification, or use of this software, in whole or in part, is strictly prohibited without prior written consent from ADEME.
 
 ---
-
-## References
-
-* CVRPLIB — Vehicle Routing Benchmark Library
-* vrplib Python Package
-* PEP 8 Style Guide
