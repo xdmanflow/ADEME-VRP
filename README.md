@@ -191,7 +191,13 @@ This project contributes to:
 
 ## Contributors
 
-Developed by the **CesiCDP team** for ADEME’s innovative mobility initiative.
+## Developers
+
+| Name            | Role      |
+| --------------- | --------- |
+| Manil Doudou    | Developer |
+| Quentin Chabres | Developer |
+| Raphaël Guerro  | Developer |
 
 ---
 
