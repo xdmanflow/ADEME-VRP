@@ -1,7 +1,5 @@
 # Smart Multimodal Mobility — VRP Optimization
 
-# Smart Mobility VRP Solver
-
 A Python-based VRP solver developed for ADEME's call for innovative mobility solutions, optimizing delivery routes to reduce energy consumption and CO₂ emissions.
 
 ---
