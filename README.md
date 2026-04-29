@@ -191,8 +191,6 @@ This project contributes to:
 
 ## Contributors
 
-## Developers
-
 | Name            | Role      |
 | --------------- | --------- |
 | Manil Doudou    | Developer |
